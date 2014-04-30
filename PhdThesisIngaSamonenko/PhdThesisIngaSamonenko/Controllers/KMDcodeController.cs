@@ -2,11 +2,11 @@
 
 namespace PhdThesisIngaSamonenko.Controllers
 {
-    public class BDController : Controller
+    public class KMDcodeController : Controller
     {
         public ActionResult Index()
         {
-            return File("BD.R", "text/plain");
+            return File("KMD.R", "text/plain");
         }
 
     }
